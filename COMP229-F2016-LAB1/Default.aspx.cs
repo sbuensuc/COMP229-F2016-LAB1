@@ -11,7 +11,7 @@ namespace COMP229_F2016_LAB1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            myTimeLabel.Text = DateTime.Now.ToString();
         }
     }
 }
